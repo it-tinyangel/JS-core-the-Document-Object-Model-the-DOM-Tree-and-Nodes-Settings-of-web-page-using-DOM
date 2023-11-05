@@ -1,0 +1,60 @@
+@import url(fonts/fonts.css);
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	background-color: #fff;
+}
+
+p {
+	padding: 10px 10px 10px 20px;
+}
+
+ul {
+	padding: 0 0 0 35px;
+	margin: 10px 0 10px 0;
+	display: list-item;
+}
+
+ul>li {
+	padding: 5px;
+}
+
+div>p:nth-child(1) {
+	margin: 10px 0 0 0;
+}
+
+div>p:nth-last-child(1) {
+	margin: 5px 0 0 0;
+	text-align: center;
+	color: crimson;
+}
+
+hr {
+	border: none;
+	border: 1px solid crimson;
+	margin: 10px 0 0 0;
+}
+
+.header {
+	padding: 25px;
+	font-size: 2rem;
+	font-weight: bold;
+	color: crimson;
+}
+
+.menu {
+	padding: 25px;
+	text-align: right;
+	color: #fff;
+	background-color: crimson;
+}
