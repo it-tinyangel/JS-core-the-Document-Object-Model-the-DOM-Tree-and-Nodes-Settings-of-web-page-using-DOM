@@ -21,14 +21,14 @@ const navTextColor = prompt('Select and enter a text color for the "My Favorite 
 nav.style.color = navTextColor;
 
 // Get and set the text color for the links
-const navLinks = document.querySelectorAll('#nav a');
+const navLinks = document.querySelectorAll('.nav a');
 for (const link of navLinks) {
 	link.style.color = navTextColor;
 }
 
 // Get and set the text color for the main content
 const mainTextColor = prompt('Select and enter the text color for the main page, setting, for example, white or black:');
-const mainContent = document.querySelector('section');
+const mainContent = document.querySelector('main');
 mainContent.style.color = mainTextColor;
 document.querySelector('section>p:nth-of-type(4)').style.color = mainTextColor;
 
