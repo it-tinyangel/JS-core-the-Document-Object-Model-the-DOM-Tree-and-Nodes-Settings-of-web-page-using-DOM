@@ -5,37 +5,40 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles/style.css">
-	<title>My page</title>
+	<title>My Page</title>
 </head>
 
 <body>
-
-	<h1 class="header">My page</h1>
-	<p class="menu" id="menu">My favorite sites:
-		<a href="http://google.com/" target="_blank">google</a>
-		<a href="https://www.w3schools.com/" target="_blank">w3schools</a>
-		<a href="https://stackoverflow.com/" target="_blank">stackoverflow</a>
-	</p>
-
-	<div id="div">
-		<p>Using JavaScript, the user is prompted to choose a style for the page. Namely:</p>
-		<ul id="list">
-			<li>background for the page;</li>
-			<li>font style on the page;</li>
-			<li>alignment for header "h1";</li>
-			<li>background for paragraph with links;</li>
-			<li>color of the text in the paragraph with links and for the links, while the color of the text for the links is assigned in the loop;</li>
-			<li>color, size, thickness of the text in the "div" element;</li>
-			<li>marker type for a list on a page.</li>
+	<header>
+		<h1 class="header">My Page</h1>
+	</header>
+	<nav class="nav" id="nav">
+		My favorite sites:
+		<ul>
+			<li><a href="http://google.com/" target="_blank">Google</a></li>
+			<li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+			<li><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
 		</ul>
-		<p>In addition, instead of links to the specified specific sites, the navigation bar displays links to three sites  entered by the user.</p>
-		<p>For example, the user entered the address football24.ua in the "prompt()" window. In this case, a link is created that leads to the football24 site, and the text of this link, which you can use to go to the specified site is also football24.ua.</p>
-		<hr noshade>
-		<p><em>Thus</em>, the user is prompted to enter ten page settings, after which they are applied.</p>
-	</div>
-
+	</nav>
+	<main>
+		<section class="main" id="main">
+			<p>Using JavaScript, the user is prompted to choose a style for the page. Namely:</p>
+			<ul id="list">
+				<li>Background for the page;</li>
+				<li>Font style on the page;</li>
+				<li>Alignment for the "My Page" header;</li>
+				<li>Background for the paragraph with links;</li>
+				<li>Color of the text in the paragraph with links and for the links (the color of the text for the links is assigned in the loop);</li>
+				<li>Color, size, and thickness of the text in the "div" element;</li>
+				<li>Marker type for a list on the page.</li>
+			</ul>
+			<p>In addition, instead of links to the specified specific sites, the navigation bar displays links to three sites entered by the user.</p>
+			<p>For example, if the user entered the address "football24.ua" in the "prompt()" window, a link is created that leads to the "football24.ua" site, and the text of this link is also "football24.ua."</p>
+			<hr>
+			<p><em>Thus</em>, the user is prompted to enter ten page settings, after which they are applied.</p>
+		</section>
+	</main>
 	<script src="js/script.js"></script>
-
 </body>
 
 </html>
