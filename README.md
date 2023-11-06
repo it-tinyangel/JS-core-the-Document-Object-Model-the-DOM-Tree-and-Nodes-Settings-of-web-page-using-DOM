@@ -1,8 +1,8 @@
-# Module 3. JS Core. Task for Lesson 11
+# Модуль 3. JS Core. Завдання до уроку 11
 
-### Document Object Model. The DOM Tree and Nodes. Manipulation the document structure
+### Об'єктна модель документа. Дерево та вузли DOM. Маніпуляції зі структурою документа
 
-### My Page Customizer
+### Настроювач "Mоєї сторінки"
 
 Цей проект - web сторінка HTML, яку користувач може налаштувати з використанням JavaScript. Він дозволяє користувачу змінити різні стилі та додати власні посилання на web сторінку.
 
