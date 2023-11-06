@@ -1,61 +1,55 @@
-// фон для сторінки
-let bodyBackgroundColor = prompt('Виберіть і введіть налаштування кольору фону для сторінки, як-от tan, crimson або steelblue:');
-
+// Отримуємо та встановлюємо колір фону для сторінки
+const bodyBackgroundColor = prompt('Виберіть та введіть колір фону для сторінки, наприклад, tan, crimson або steelblue:');
 document.body.style.backgroundColor = bodyBackgroundColor;
 
-// тип шрифта на сторінці
-let bodyFontStyle = prompt('Виберіть і введіть параметри normal або italic шрифту для сторінки:');
-
+// Отримуємо та встановлюємо стиль шрифту для сторінки
+const bodyFontStyle = prompt('Виберіть та введіть стиль шрифту для сторінки (normal або italic):');
 document.body.style.fontStyle = bodyFontStyle;
 
-// вирівнювання для заголовка
-let headerTextAlign = prompt('Виберіть і введіть параметри вирівнювання left, right або center для заголовка \"Моя сторінка\":');
-
+// Отримуємо та встановлюємо вирівнювання для заголовку h1
+const headerTextAlign = prompt('Виберіть та введіть вирівнювання для заголовка "Моя сторінка" (left, right або center):');
 document.querySelector('.header').style.textAlign = headerTextAlign;
 
-// фон для параграфа з посиланнями
-let menuBackgroundColor = prompt('Виберіть і введіть колір фону навігаційної панелі \"Мої улюблені сайти\", такі як, peru, crimson або brown:');
+// Отримуємо та встановлюємо колір фону для параграфа з посиланнями
+const navBackgroundColor = prompt('Виберіть та введіть колір фону для навігації "Мої улюблені сайти", наприклад, peru, crimson або brown:');
+const nav = document.getElementById('nav');
+nav.style.backgroundColor = navBackgroundColor;
+document.querySelector('hr').style.borderColor = navBackgroundColor;
 
-document.getElementById('menu').style.backgroundColor = menuBackgroundColor;
-document.querySelector('hr').style.borderColor = menuBackgroundColor;
+// Отримуємо та встановлюємо колір тексту для параграфа з посиланнями
+const navTextColor = prompt('Виберіть та введіть колір тексту для навігації "Мої улюблені сайти", наприклад, white або black:');
+nav.style.color = navTextColor;
 
-// колір тексту у параграфі з посиланнями і для посилань
-let menuTextColor = prompt('Виберіть і введіть колір тексту для навігаційної панелі \"Мої улюблені сайти\", наприклад, white або black:');
-
-document.getElementById('menu').style.color = menuTextColor;
-
-let menuLinks = document.querySelectorAll('#menu a');
-for (const link of menuLinks) {
-	link.style.color = menuTextColor;
+// Отримуємо та встановлюємо колір тексту для посилань
+const navLinks = document.querySelectorAll('#nav a');
+for (const link of navLinks) {
+	link.style.color = navTextColor;
 }
 
-// колір тексту у елементі div
-let mainTextColor = prompt('Виберіть і введіть колір тексту для головної сторінки, встановивши, наприклад, white або black:');
+// Отримуємо та встановлюємо колір тексту для основного контенту
+const mainTextColor = prompt('Виберіть та введіть колір тексту для головної сторінки, встановивши, наприклад, white або black:');
+const mainContent = document.querySelector('#main');
+mainContent.style.color = mainTextColor;
+document.querySelector('#main>p:nth-of-type(4)').style.color = mainTextColor;
 
-document.querySelector('div').style.color = mainTextColor;
-document.querySelector('div>p:nth-of-type(4)').style.color = mainTextColor;
+// Отримуємо та встановлюємо розмір шрифту для основного контенту 
+const mainFontSize = prompt('Виберіть і введіть розмір шрифту для головної сторінки, встановивши розмір у пікселях (px) або,  як-от small, medium, large або larger:');
+mainContent.style.fontSize = mainFontSize;
 
-// розмір тексту у елементі div
-let mainFontSize = prompt('Виберіть і введіть розмір шрифту для головної сторінки, встановивши розмір у пікселях (px) або,  як-от small, medium, large або larger:');
+// Отримуємо та встановлюємо жирність шрифту для основного контенту 
+const mainFontWeight = prompt('Виберіть і введіть налаштування щільності шрифту для головної сторінки, вибравши 400, 600 або 800 чи normal або bold:');
+mainContent.style.fontWeight = mainFontWeight;
 
-document.querySelector('div').style.fontSize = mainFontSize;
+// Отримуємо та встановлюємо тип маркера для списку на сторінці 
+const mainTypeListMarker = prompt('Виберіть і введіть тип маркування списку на сторінці, вибравши disc, square або circle:');
+document.querySelector('#list').style.listStyleType = mainTypeListMarker;
 
-// товщину тексту у елементі div
-let mainFontWeight = prompt('Виберіть і введіть налаштування щільності шрифту для головної сторінки, вибравши 400, 600 або 800 чи normal або bold:');
+// Отримуємо та встановлюємо посилання на три веб-сайти, які введе користувач
+const userNavLinks = prompt('Введіть три сайти, розділені комами, наприклад \"example1.com, example2.com, example3.com\":').split(', ');
 
-document.querySelector('div').style.fontWeight = mainFontWeight;
-
-// тип маркера для маркованого списку на сторінці
-let mainTypeListItemMarker = prompt('Виберіть і введіть тип маркування списку на сторінці, вибравши disc, square або circle:');
-
-document.querySelector('#list').style.listStyleType = mainTypeListItemMarker;
-
-// посилання на три сайти, які вводить користувач
-let userMenuLinks = prompt('Введіть три сайти, розділені комами, наприклад \"example1.com, example2.com, example3.com\":').split(', ');
-
-if (userMenuLinks.length === 3) {
-	const userLinks = document.querySelectorAll('#menu a');
-	userMenuLinks.forEach((link, index) => {
+if (userNavLinks.length === 3) {
+	const userLinks = document.querySelectorAll('#nav a');
+	userNavLinks.forEach((link, index) => {
 		userLinks[index].href = 'https://' + link;
 		userLinks[index].textContent = link;
 	});
