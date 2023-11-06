@@ -23,9 +23,9 @@ On this web page, the following parameters are provided for customization:
 
 Additionally, users can input three custom links that will be displayed in the navigation panel.
 
-This project allows the user to customize the web page to  your liking without the need to manually edit CSS[^1].
+So, this is web page allows the user to customize the web page to  your liking without the need to manually edit CSS[^1].
 
-[^1]: This project demonstrates how the DOM helps access the tree model, and once access is granted, users can make any changes related to the composition, layout, content, or style of the HTML web page.
+[^1]: This is web page demonstrates how the DOM helps access the tree model, and once access is granted, users can make any changes related to the composition, layout, content, or style of the HTML web page.
 
 ## Requirements
 
