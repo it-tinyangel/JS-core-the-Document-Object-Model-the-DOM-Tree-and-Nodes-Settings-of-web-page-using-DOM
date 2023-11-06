@@ -54,8 +54,7 @@ document.querySelector('#list').style.listStyleType = mainTypeListItemMarker;
 let userMenuLinks = prompt('Enter three web sites separated by commas, for example \"example1.com, example2.com, example3.com\":').split(', ');
 
 if (userMenuLinks.length === 3) {
-	// const userLinks = document.querySelectorAll('#menu a');
-	const userLinks = document.p.getElementsByTagName('a');
+	const userLinks = document.querySelectorAll('#menu a');
 		userMenuLinks.forEach((link, index) => {
 		userLinks[index].href = 'https://' + link;
 		userLinks[index].textContent = link;
