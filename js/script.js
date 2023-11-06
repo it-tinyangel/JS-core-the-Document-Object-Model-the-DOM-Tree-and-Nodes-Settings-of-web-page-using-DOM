@@ -21,16 +21,16 @@ const navTextColor = prompt('Виберіть та введіть колір т�
 nav.style.color = navTextColor;
 
 // Отримуємо та встановлюємо колір тексту для посилань
-const navLinks = document.querySelectorAll('#nav a');
+const navLinks = document.querySelectorAll('.nav a');
 for (const link of navLinks) {
 	link.style.color = navTextColor;
 }
 
 // Отримуємо та встановлюємо колір тексту для основного контенту
 const mainTextColor = prompt('Виберіть та введіть колір тексту для головної сторінки, встановивши, наприклад, white або black:');
-const mainContent = document.querySelector('#main');
+const mainContent = document.querySelector('main');
 mainContent.style.color = mainTextColor;
-document.querySelector('#main>p:nth-of-type(4)').style.color = mainTextColor;
+document.querySelector('section>p:nth-of-type(4)').style.color = mainTextColor;
 
 // Отримуємо та встановлюємо розмір шрифту для основного контенту 
 const mainFontSize = prompt('Виберіть і введіть розмір шрифту для головної сторінки, встановивши розмір у пікселях (px) або,  як-от small, medium, large або larger:');
