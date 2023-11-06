@@ -33,7 +33,7 @@ for (const link of menuLinks) {
 let mainTextColor = prompt('Виберіть і введіть колір тексту для головної сторінки, встановивши, наприклад, white або black:');
 
 document.querySelector('div').style.color = mainTextColor;
-document.querySelector('div>p:last-child').style.color = mainTextColor;
+document.querySelector('div>p:nth-of-type(4)').style.color = mainTextColor;
 
 // розмір тексту у елементі div
 let mainFontSize = prompt('Виберіть і введіть розмір шрифту для головної сторінки, встановивши розмір у пікселях (px) або,  як-от small, medium, large або larger:');
