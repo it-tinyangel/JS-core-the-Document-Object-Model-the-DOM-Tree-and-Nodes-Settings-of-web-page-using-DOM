@@ -33,7 +33,7 @@ for (const link of menuLinks) {
 let mainTextColor = prompt('Select and enter the text color for the main page, setting, for example, white or black:');
 
 document.querySelector('div').style.color = mainTextColor;
-document.querySelector('div>p:last-child').style.color = mainTextColor;
+document.querySelector('div>p:nth-of-type(4)').style.color = mainTextColor;
 
 // size of the text in the div element
 let mainFontSize = prompt('Select and enter a font size for the main page, set to a size in pixels (px) or such as small, medium, large, or larger:');
