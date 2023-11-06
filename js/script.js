@@ -1,64 +1,58 @@
-// background for the page
-let bodyBackgroundColor = prompt('Select and enter a background color setting for the page, such as tan, crimson or steelblue:');
-
+// Get and set the background color for the page
+const bodyBackgroundColor = prompt('Select and enter the background color for the page, for example, tan, crimson, or steelblue:');
 document.body.style.backgroundColor = bodyBackgroundColor;
 
-// font style on the page
-let bodyFontStyle = prompt('Select and enter normal or italic font style settings for the page:');
-
+// Get and set the font style for the page
+const bodyFontStyle = prompt('Select and enter the font style for the page (normal or italic):');
 document.body.style.fontStyle = bodyFontStyle;
 
-// alignment for header h1
-let headerTextAlign = prompt('Select and enter left, right or center alignment options for the \"My Page\" header:');
-
+// Get and set alignment for the h1 header
+const headerTextAlign = prompt('Select and enter alignment for the "My Page" header (left, right, or center):');
 document.querySelector('.header').style.textAlign = headerTextAlign;
 
-// background for paragraph with links
-let menuBackgroundColor = prompt('Select and enter the background color of the \"My Favorite Sites\" navigation on the page, such as peru, crimson or brown:');
+// Get and set the background color for the paragraph with links
+const navBackgroundColor = prompt('Select and enter the background color of the "My Favorite Sites" navigation on the page, for example, peru, crimson, or brown:');
+const nav = document.getElementById('nav');
+nav.style.backgroundColor = navBackgroundColor;
+document.querySelector('hr').style.borderColor = navBackgroundColor;
 
-document.getElementById('menu').style.backgroundColor = menuBackgroundColor;
-document.querySelector('hr').style.borderColor = menuBackgroundColor;
+// Get and set the text color for the paragraph with links
+const navTextColor = prompt('Select and enter a text color for the "My Favorite Sites" navigation on the page, for example, white or black:');
+nav.style.color = navTextColor;
 
-// the color of the text in the paragraph with links and for the links
-let menuTextColor = prompt('Select and enter a text color for the \"My Favorite Sites\" navigation on the page, for example white or black:');
-
-document.getElementById('menu').style.color = menuTextColor;
-
-let menuLinks = document.querySelectorAll('#menu a');
-for (const link of menuLinks) {
-	link.style.color = menuTextColor;
+// Get and set the text color for the links
+const navLinks = document.querySelectorAll('#nav a');
+for (const link of navLinks) {
+	link.style.color = navTextColor;
 }
 
-// color of the text in the div element
-let mainTextColor = prompt('Select and enter the text color for the main page, setting, for example, white or black:');
+// Get and set the text color for the main content
+const mainTextColor = prompt('Select and enter the text color for the main page, setting, for example, white or black:');
+const mainContent = document.querySelector('section');
+mainContent.style.color = mainTextColor;
+document.querySelector('section>p:nth-of-type(4)').style.color = mainTextColor;
 
-document.querySelector('div').style.color = mainTextColor;
-document.querySelector('div>p:nth-of-type(4)').style.color = mainTextColor;
+// Get and set the font size for the main content
+const mainFontSize = prompt('Select and enter a font size for the main page, set to a size in pixels (px) or such as small, medium, large, or larger:');
+mainContent.style.fontSize = mainFontSize;
 
-// size of the text in the div element
-let mainFontSize = prompt('Select and enter a font size for the main page, set to a size in pixels (px) or such as small, medium, large, or larger:');
+// Get and set the font weight for the main content
+const mainFontWeight = prompt('Select and enter a font weight setting for the main page, choosing 400, 600, or 800, or normal or bold:');
+mainContent.style.fontWeight = mainFontWeight;
 
-document.querySelector('div').style.fontSize = mainFontSize;
+// Get and set the marker type for a list on the page
+const mainTypeListMarker = prompt('Select and enter the list marking type on the page, choosing disc, square, or circle:');
+document.querySelector('#list').style.listStyleType = mainTypeListMarker;
 
-// thickness of the text in the div element
-let mainFontWeight = prompt('Select and enter a font weight setting for the main page, choosing 400, 600, or 800, or normal or bold:');
+// Get and set links to three web sites entered by the user
+const userNavLinks = prompt('Enter three web sites separated by commas, for example "example1.com, example2.com, example3.com":').split(', ');
 
-document.querySelector('div').style.fontWeight = mainFontWeight;
-
-// marker type for a list on a page
-let mainTypeListItemMarker = prompt('Select and enter the list marking type on the page, choosing disc, square or circle:');
-
-document.querySelector('#list').style.listStyleType = mainTypeListItemMarker;
-
-// links to three web sites entered by the user
-let userMenuLinks = prompt('Enter three web sites separated by commas, for example \"example1.com, example2.com, example3.com\":').split(', ');
-
-if (userMenuLinks.length === 3) {
-	const userLinks = document.querySelectorAll('#menu a');
-		userMenuLinks.forEach((link, index) => {
+if (userNavLinks.length === 3) {
+	const userLinks = document.querySelectorAll('#nav a');
+	userNavLinks.forEach((link, index) => {
 		userLinks[index].href = 'https://' + link;
 		userLinks[index].textContent = link;
 	});
 } else {
-	alert('You don\'t entered three sites...');
+	alert('You didn\'t enter three sites...');
 }
