@@ -1,6 +1,6 @@
 # Module 3. JS Core. Tasks for Lesson 11
 
-## Document Object Model. Tree and DOM Nodes. Document Structure Manipulation
+## Document Object Model. DOM Tree and Nodes. Document Structure Manipulation
 
 ## Settings of the web page "My page"
 
