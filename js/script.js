@@ -6,17 +6,17 @@ document.body.style.backgroundColor = bodyBackgroundColor;
 const bodyFontStyle = prompt('Select and enter the font style for the page (normal or italic):');
 document.body.style.fontStyle = bodyFontStyle;
 
-// Get and set alignment for the h1 header
+// Get and set alignment for heading h1
 const headerTextAlign = prompt('Select and enter alignment for the "My Page" header (left, right, or center):');
 document.querySelector('.header').style.textAlign = headerTextAlign;
 
-// Get and set the background color for the paragraph with links
+// Get and set the background color for the navigation with links
 const navBackgroundColor = prompt('Select and enter the background color of the "My Favorite Sites" navigation on the page, for example, peru, crimson, or brown:');
 const nav = document.getElementById('nav');
 nav.style.backgroundColor = navBackgroundColor;
 document.querySelector('hr').style.borderColor = navBackgroundColor;
 
-// Get and set the text color for the paragraph with links
+// Get and set the text color for the navigation with links
 const navTextColor = prompt('Select and enter a text color for the "My Favorite Sites" navigation on the page, for example, white or black:');
 nav.style.color = navTextColor;
 
