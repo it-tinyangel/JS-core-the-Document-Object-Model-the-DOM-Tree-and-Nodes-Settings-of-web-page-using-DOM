@@ -10,13 +10,13 @@ document.body.style.fontStyle = bodyFontStyle;
 const headerTextAlign = prompt('Виберіть та введіть вирівнювання для заголовка "Моя сторінка" (left, right або center):');
 document.querySelector('.header').style.textAlign = headerTextAlign;
 
-// Отримуємо та встановлюємо колір фону для параграфа з посиланнями
+// Отримуємо та встановлюємо колір фону для навігації з посиланнями
 const navBackgroundColor = prompt('Виберіть та введіть колір фону для навігації "Мої улюблені сайти", наприклад, peru, crimson або brown:');
 const nav = document.getElementById('nav');
 nav.style.backgroundColor = navBackgroundColor;
 document.querySelector('hr').style.borderColor = navBackgroundColor;
 
-// Отримуємо та встановлюємо колір тексту для параграфа з посиланнями
+// Отримуємо та встановлюємо колір тексту для навігації з посиланнями
 const navTextColor = prompt('Виберіть та введіть колір тексту для навігації "Мої улюблені сайти", наприклад, white або black:');
 nav.style.color = navTextColor;
 
