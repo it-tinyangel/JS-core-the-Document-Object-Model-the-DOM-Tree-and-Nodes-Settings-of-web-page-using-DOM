@@ -4,7 +4,7 @@
 
 <details>
 
-<summary>Rewritten script.js</summary>
+<summary>Rewritten script.js :point_left:</summary>
 
 <br>
 
