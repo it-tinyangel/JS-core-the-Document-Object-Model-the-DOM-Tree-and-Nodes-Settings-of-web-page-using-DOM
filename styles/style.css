@@ -28,7 +28,7 @@ section p {
 	padding: 15px 0 0 0;
 }
 
-section p:nth-of-type(4){
+section p:last-child {
 	font-size: 1.25rem;
 	text-align: center;
 	color: crimson;
