@@ -2,6 +2,20 @@
 
 ## Document Object Model. DOM Tree and Nodes. Document Structure Manipulation
 
+<details>
+
+<summary>Rewritten script.js</summary>
+
+<br>
+
+The script has been rewritten and creating functions `getUserStyles`, `getUserNavLinks` to collect styles and functions to set them,  such as `setTextColor`, `setNavBackgroundColor`, `setLastChildStyles`, to set styles.
+
+Now the code can be extended and the number of properties increased.
+
+Functionality — receiving different styles from the user and applying them to page elements — remained unchanged.
+
+</details>
+
 ## Settings of the web page "My page"
 
 This is an HTML web page that the user can customize using JavaScript. It allows the user to change different styles and add their own links to the web page.
