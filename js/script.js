@@ -35,10 +35,12 @@ document.querySelector('section>p:nth-of-type(4)').style.color = mainTextColor;
 // Get and set the font size for the main content
 const mainFontSize = prompt('Select and enter a font size for the main page, set to a size in pixels (px) or such as small, medium, large, or larger:');
 mainContent.style.fontSize = mainFontSize;
+document.querySelector('section>p:nth-of-type(4)').style.fontSize = mainFontSize;
 
 // Get and set the font weight for the main content
 const mainFontWeight = prompt('Select and enter a font weight setting for the main page, choosing 400, 600, or 800, or normal or bold:');
 mainContent.style.fontWeight = mainFontWeight;
+document.querySelector('section>p:nth-of-type(4)').style.fontWeight = mainFontWeight;
 
 // Get and set the marker type for a list on the page
 const mainTypeListMarker = prompt('Select and enter the list marking type on the page, choosing disc, square, or circle:');
