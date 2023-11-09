@@ -35,10 +35,12 @@ document.querySelector('section>p:nth-of-type(4)').style.color = mainTextColor;
 // Отримуємо та встановлюємо розмір шрифту для основного контенту 
 const mainFontSize = prompt('Виберіть і введіть розмір шрифту для головної сторінки, встановивши розмір у пікселях (px) або,  як-от small, medium, large або larger:');
 mainContent.style.fontSize = mainFontSize;
+document.querySelector('section>p:nth-of-type(4)').style.fontSize = mainFontSize;
 
 // Отримуємо та встановлюємо жирність шрифту для основного контенту 
 const mainFontWeight = prompt('Виберіть і введіть налаштування щільності шрифту для головної сторінки, вибравши 400, 600 або 800 чи normal або bold:');
 mainContent.style.fontWeight = mainFontWeight;
+document.querySelector('section>p:nth-of-type(4)').style.fontWeight = mainFontWeight;
 
 // Отримуємо та встановлюємо тип маркера для списку на сторінці 
 const mainTypeListMarker = prompt('Виберіть і введіть тип маркування списку на сторінці, вибравши disc, square або circle:');
