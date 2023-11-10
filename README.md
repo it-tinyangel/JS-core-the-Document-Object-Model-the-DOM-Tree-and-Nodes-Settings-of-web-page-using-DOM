@@ -2,6 +2,8 @@
 
 ### Document Object Model. DOM Tree and Nodes. Document Structure Manipulation
 
+---
+
 <details>
 
 ***<summary>Rewritten script.js :point_left:</summary>***
@@ -15,6 +17,8 @@
 *Functionality — receiving different styles from the user and applying them to page elements — remained unchanged.*
 
 </details>
+
+---
 
 ### Settings of the web page "My page"
 
