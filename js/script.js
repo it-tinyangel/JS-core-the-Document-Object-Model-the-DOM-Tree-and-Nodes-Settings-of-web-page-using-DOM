@@ -30,8 +30,8 @@ function setLastChildStyles(element, styles) {
 
 // Function to get user input for navigation links
 function getUserNavLinks() {
-	const userInput = prompt('Enter three websites separated by commas, for example "example1.com, example2.com, example3.com":');
-	return userInput !== null ? userInput.split(', ').slice(0, 3) : null;
+	const userInputLinks = prompt('Enter three websites separated by commas, for example "example1.com, example2.com, example3.com":');
+	return userInputLinks !== null ? userInputLinks.split(', ').slice(0, 3) : null;
 }
 
 // Get and set styles for the page
