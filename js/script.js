@@ -12,7 +12,7 @@ document.querySelector('.header').style.textAlign = headerTextAlign;
 
 // Отримуємо та встановлюємо колір фону для навігації з посиланнями
 const navBackgroundColor = prompt('Виберіть та введіть колір фону для навігації "Мої улюблені сайти", наприклад, peru, crimson або brown:');
-const nav = document.getElementById('nav');
+const nav = document.getElementById('myNav');
 nav.style.backgroundColor = navBackgroundColor;
 document.querySelector('hr').style.borderColor = navBackgroundColor;
 
