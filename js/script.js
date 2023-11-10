@@ -12,7 +12,7 @@ document.querySelector('.header').style.textAlign = headerTextAlign;
 
 // Get and set the background color for the navigation with links
 const navBackgroundColor = prompt('Select and enter the background color of the "My Favorite Sites" navigation on the page, for example, peru, crimson, or brown:');
-const nav = document.getElementById('nav');
+const nav = document.getElementById('myNav');
 nav.style.backgroundColor = navBackgroundColor;
 document.querySelector('hr').style.borderColor = navBackgroundColor;
 
