@@ -44,13 +44,13 @@ document.querySelector('section>p:nth-of-type(4)').style.fontWeight = mainFontWe
 
 // Get and set the marker type for a list on the page
 const mainTypeListMarker = prompt('Select and enter the list marking type on the page, choosing disc, square, or circle:');
-document.querySelector('#list').style.listStyleType = mainTypeListMarker;
+document.querySelector('#myList').style.listStyleType = mainTypeListMarker;
 
 // Get and set links to three web sites entered by the user
 const userNavLinks = prompt('Enter three web sites separated by commas, for example "example1.com, example2.com, example3.com":').split(', ');
 
 if (userNavLinks.length === 3) {
-	const userLinks = document.querySelectorAll('#nav a');
+	const userLinks = document.querySelectorAll('#myNav a');
 	userNavLinks.forEach((link, index) => {
 		userLinks[index].href = 'https://' + link;
 		userLinks[index].textContent = link;
