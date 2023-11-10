@@ -66,14 +66,14 @@ Object.assign(mainContent.style, mainStyles);
 setLastChildStyles(mainContent, mainStyles);
 
 // Get and set the marker type for a list on the page
-const mainTypeListMarker = document.querySelector('#list');
+const mainTypeListMarker = document.querySelector('#myList');
 const listMarkerStyles = getUserStyles(mainTypeListMarker, ['listStyleType'], 'Enter styles for the list marker');
 Object.assign(mainTypeListMarker.style, listMarkerStyles);
 
 // Get and set user input for navigation links
 const userNavLinks = getUserNavLinks();
 if (userNavLinks !== null) {
-	const userLinks = document.querySelectorAll('#nav a');
+	const userLinks = document.querySelectorAll('#myNav a');
 	userNavLinks.forEach((link, index) => {
 		userLinks[index].href = 'https://' + link;
 		userLinks[index].textContent = link;
