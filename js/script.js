@@ -44,13 +44,13 @@ document.querySelector('section>p:nth-of-type(4)').style.fontWeight = mainFontWe
 
 // Отримуємо та встановлюємо тип маркера для списку на сторінці 
 const mainTypeListMarker = prompt('Виберіть і введіть тип маркування списку на сторінці, вибравши disc, square або circle:');
-document.querySelector('#list').style.listStyleType = mainTypeListMarker;
+document.querySelector('#myList').style.listStyleType = mainTypeListMarker;
 
 // Отримуємо та встановлюємо посилання на три веб-сайти, які введе користувач
 const userNavLinks = prompt('Введіть три сайти, розділені комами, наприклад \"example1.com, example2.com, example3.com\":').split(', ');
 
 if (userNavLinks.length === 3) {
-	const userLinks = document.querySelectorAll('#nav a');
+	const userLinks = document.querySelectorAll('#myNav a');
 	userNavLinks.forEach((link, index) => {
 		userLinks[index].href = 'https://' + link;
 		userLinks[index].textContent = link;
