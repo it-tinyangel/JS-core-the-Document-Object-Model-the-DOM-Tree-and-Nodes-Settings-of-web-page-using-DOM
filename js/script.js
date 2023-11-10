@@ -46,7 +46,7 @@ const headerStyles = getUserStyles(header, ['textAlign'], 'Enter alignment for h
 Object.assign(header.style, headerStyles);
 
 // Get and set styles for navigation links
-const nav = document.getElementById('nav');
+const nav = document.getElementById('myNav');
 const hr = document.querySelector('hr');
 const navProperties = ['backgroundColor'];
 const navStyles = getUserStyles(nav, navProperties, 'Enter background color for navigation');
