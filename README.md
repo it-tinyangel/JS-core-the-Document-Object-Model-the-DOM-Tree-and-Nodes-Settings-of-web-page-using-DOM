@@ -8,7 +8,7 @@
 
 <br>
 
-The script has been rewritten and creating functions `getUserStyles`, `getUserNavLinks` to collect styles and functions to set them,  such as `setTextColor`, `setNavBackgroundColor`, `setLastChildStyles`, to set styles.
+The script has been rewritten and creating functions `getUserStyles`, `getUserNavLinks` to collect styles and functions to set them,  such as `setTextColor`, `setNavBackgroundColor`, `setLastChildStyles`
 
 Now the code can be extended and the number of properties increased.
 
