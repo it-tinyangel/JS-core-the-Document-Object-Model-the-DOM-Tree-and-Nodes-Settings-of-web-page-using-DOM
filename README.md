@@ -1,6 +1,6 @@
-# Module 3. JS Core. Tasks for Lesson 11
+## Module 3. JS Core. Tasks for Lesson 11
 
-## Document Object Model. DOM Tree and Nodes. Document Structure Manipulation
+### Document Object Model. DOM Tree and Nodes. Document Structure Manipulation
 
 <details>
 
@@ -16,11 +16,11 @@ Functionality — receiving different styles from the user and applying them to 
 
 </details>
 
-## Settings of the web page "My page"
+### Settings of the web page "My page"
 
 This is an HTML web page that the user can customize using JavaScript. It allows the user to change different styles and add their own links to the web page.
 
-## User Instructions
+### User Instructions
 
 1. Clone the repository to your computer.
 2. Open `index.html` in your favorite web browser.
@@ -41,10 +41,10 @@ So, this web page allows the user to customize the web page to their liking with
 
 [^1]: This web page demonstrates how the DOM helps to access the tree model and once access is granted, the user can make any changes related to the composition, layout, content or style of the HTML web page.
 
-## Requirements
+### Requirements
 
 A web browser is required to view the web page.
 
-## License
+### License
 
 The source code is distributed under the `MIT` License. Detailed information about the license can be found in the file [MIT-LICENSE.txt](https://github.com/it-tinyangel/JS-core-the-Document-Object-Model-the-DOM-Tree-and-Nodes-Settings-of-web-page-using-DOM/blob/main-en/MIT-LICENSE.txt).
