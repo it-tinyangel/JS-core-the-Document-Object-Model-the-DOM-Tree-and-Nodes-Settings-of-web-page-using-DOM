@@ -4,15 +4,15 @@
 
 <details>
 
-<summary>Rewritten script.js :point_left:</summary>
+***<summary>Rewritten script.js :point_left:</summary>***
 
 <br>
 
-The script has been rewritten and creating functions `getUserStyles`, `getUserNavLinks` to collect styles and functions to set them,  such as `setTextColor`, `setNavBackgroundColor`, `setLastChildStyles`.
+*The script has been rewritten and creating functions `getUserStyles`, `getUserNavLinks` to collect styles and functions to set them,  such as `setTextColor`, `setNavBackgroundColor`, `setLastChildStyles`.*
 
-Now the code can be extended and the number of properties increased.
+*Now the code can be extended and the number of properties increased.*
 
-Functionality — receiving different styles from the user and applying them to page elements — remained unchanged.
+*Functionality — receiving different styles from the user and applying them to page elements — remained unchanged.*
 
 </details>
 
