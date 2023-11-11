@@ -33,4 +33,4 @@
 
 ## Ліцензія
 
-Вихідний код розповсюджується за ліцензією `MIT`. Докладну інформацію щодо ліцензії можна знайти у файлі [MIT-LICENSE.txt](https://github.com/it-tinyangel/JS-core-the-Document-Object-Model-the-DOM-Tree-and-Nodes-Settings-of-web-page-using-DOM/blob/main-en/MIT-LICENSE.txt).
+Вихідний код розповсюджується за ліцензією `MIT`. Докладну інформацію щодо ліцензії можна знайти у файлі [LICENSE.md](https://github.com/it-tinyangel/JS-core-the-Document-Object-Model-the-DOM-Tree-and-Nodes-Settings-of-web-page-using-DOM/blob/uk-version/LICENSE.md).
