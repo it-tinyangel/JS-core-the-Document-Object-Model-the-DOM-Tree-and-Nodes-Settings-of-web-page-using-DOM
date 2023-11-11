@@ -3,20 +3,13 @@
 ### Document Object Model. DOM Tree and Nodes. Document Structure Manipulation
 
 ---
-
-<details>
-
-***<summary>Rewritten script.js :point_left:</summary>***
-
-<br>
-
-*The script has been rewritten and creating functions `getUserStyles`, `getUserNavLinks` to collect styles and functions to set them,  such as `setTextColor`, `setNavBackgroundColor`, `setLastChildStyles`.*
-
-*Now the code can be extended and the number of properties increased.*
-
-*Functionality — receiving different styles from the user and applying them to page elements — remained unchanged.*
-
-</details>
+> [!NOTE]
+>
+> ### Rewritten ***[script.js](https://github.com/it-tinyangel/JS-core-the-Document-Object-Model-the-DOM-Tree-and-Nodes-Settings-of-web-page-using-DOM/blob/feature/property_functions-en/js/script.js) :point_left:***
+>  
+> The script has been *rewritten* and creating functions `getUserStyles`, `getUserNavLinks` to collect styles and properties and for to set them has been creating functions  `setTextColor`, `setNavBackgroundColor`, `setLastChildStyles`. Functionality — receiving different styles from the user and applying them to page elements — remained unchanged.
+>
+> Now the code can be extended and the number of styles and properties increased.
 
 ---
 
