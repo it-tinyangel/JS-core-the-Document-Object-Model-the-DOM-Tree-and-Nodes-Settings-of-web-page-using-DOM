@@ -44,4 +44,4 @@ A web browser is required to view the web page.
 
 ### License
 
-The source code is distributed under the `MIT` License. Detailed information about the license can be found in the file [MIT-LICENSE.txt](https://github.com/it-tinyangel/JS-core-the-Document-Object-Model-the-DOM-Tree-and-Nodes-Settings-of-web-page-using-DOM/blob/main-en/MIT-LICENSE.txt).
+The source code is distributed under the `MIT` License. Detailed information about the license can be found in the file [MIT-LICENSE.txt](https://github.com/it-tinyangel/JS-core-the-Document-Object-Model-the-DOM-Tree-and-Nodes-Settings-of-web-page-using-DOM/blob/feature/property_functions-en/MIT-LICENSE.txt).
